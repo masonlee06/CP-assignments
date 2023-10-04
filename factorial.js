@@ -1,5 +1,10 @@
 function factorial(num) {
-  return 0;
+  let ans = 1
+
+  for (num; num > 0; num--) {
+    ans = ans * num
+  }
+  return ans
 }
 
 module.exports = factorial;
