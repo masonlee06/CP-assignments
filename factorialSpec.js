@@ -6,4 +6,5 @@ console.log(factorial(2) === 2);
 console.log(factorial(4) === 24);
 console.log(factorial(8) === 40320);
 console.log(factorial(18) === 6402373705728000);
+console.log(factorial(43) === 6.041526306337384e+52)
 // Test how high of a number your program can calculate. Can you push it further?
