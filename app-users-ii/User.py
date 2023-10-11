@@ -13,7 +13,8 @@ class User:
         return f"Name: {self.name}\nEmail: {self.email}\nUsername: {self.username}\nDriver's License Number: {self.dlc_num}"
     
     def make_post(self):
-        new_post = input('What would you like to post?: ')
+        user_input = input('What would you like to post?: ')
+        new_post = f'{self.name}: {user_input}'
         self.user_posts.append(new_post)
         User.post.append(new_post)
         
@@ -34,7 +35,7 @@ mason.make_post()
 regis.make_post()
 regis.make_post()
 regis.make_post()
-# mason.view_user_posts()
+mason.view_user_posts()
 # regis.view_user_posts()
-User.view_all_posts()
+# User.view_all_posts()
 
