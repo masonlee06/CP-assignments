@@ -1,4 +1,4 @@
-from User import User
+from users.user import User
 
 class PremiumUser(User):
 
