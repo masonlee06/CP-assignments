@@ -4,7 +4,7 @@ class BoggleBoard:
         
 
             dice = [
-            "SEGXAL",
+            "SEPQAL",
             "CIMOTU",
             "DISTTY",
             "EIOSST",
@@ -76,11 +76,11 @@ class BoggleBoard:
                  
 
 
-board = BoggleBoard()
+# board = BoggleBoard()
 
-board.shake()
-print(board)
-print(board.row1)
-print(board.include_word('aaaa'))
+# board.shake()
+# print(board)
+# print(board.row1)
+# print(board.include_word('aaaa'))
 
 
