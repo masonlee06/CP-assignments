@@ -14,8 +14,3 @@ class FreeUser(User):
             self.user_posts.append(new_post)
             User.post.append(new_post)
 
-# mason = FreeUser('Mason', 'stuff@stuff.org', 651561, 'masonlee')
-
-# mason.make_post()
-# mason.make_post()
-# mason.make_post()
