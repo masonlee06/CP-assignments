@@ -1,7 +1,5 @@
 class ContactList:
 
-    
-
     def __init__(self, contacts=[], info=[]):
         self._contacts = contacts
         self.info = info
