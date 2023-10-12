@@ -7,9 +7,9 @@ class Animal(ABC):
         self.name = name
         self.species = species
     
-    @abstractmethod
+    # @abstractmethod
     def speak(self):
-        pass
+        return 'Animal sound'
 
 
 class Mammal(Animal):
@@ -86,5 +86,5 @@ class Reptile(Animal):
 class ReptileEnclosure(Reptile):
 
     def __init__(self):
-        self.enclosure = []
+        self.reptiles = []
         # self.enclosure.append(reptile)
